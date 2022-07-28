@@ -1,0 +1,158 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+
+  - intent: request_names
+    examples: |
+      - i want to give you my name
+      - give name
+      - you need to know my name
+      - do you know my name?
+      - my name
+
+  - intent: corona
+    examples: |
+      - what is corona virus?
+      - what is corona?
+      - how corona affects?
+      - corona virus
+
+  - intent: covid-19
+    examples: |
+      - what is covid-19?
+      - covid-19
+
+  - intent: symptoms_of_corona
+    examples: |
+      - what are the most common symptoms?
+      - symptoms of corona
+      - is fever,cough,cold a symptom of corona?
+      - what are corona symptoms?
+
+  - intent: covid19_spread
+    examples: |
+      - how does covid-19 spread?
+      - is covid-19 transmitted through air?
+      - can the virus transmit through air?
+      - does covid-19 spread?
+      - how covid spreads?
+
+  - intent: covid19_spread_no_symptoms
+    examples: |
+      - can covid be caught from a person who has no symptoms?
+      - can i catch covid from a person who has no symptoms?
+      - do i get covid without symptoms?
+      - covid without symptoms
+      - covid no symptoms
+      - did covid spread from person to person with no symptoms
+
+  - intent: covid19_spread_from_feces
+    examples: |
+      - can i catch covid-19 from the feces of someone with the disease?
+      - can i catch covid-19 from the feces?
+      - is it possible to get infected from feces?
+
+  - intent: covid19_prevention
+    examples: |
+      - what can i do to protect myself ?
+      - how to prevent spread of disease?
+      - prevention
+      - prevent the spread of disease
+
+  - intent: catching_covid
+    examples: |
+      - how likely am I to catch covid-19?
+      - will i get covid-19?
+      - how do i get covid?
+      - how much time it take to get covid
+
+  - intent: worrying_covid
+    examples: |
+      - should i worry about covid-19?
+      - should i woory about covid
+
+  - intent: severe_illness
+    examples: |
+      - who is at risk of developing severe illness?
+      - which age group people are at risk?
+      - who are all at risk?
+
+  - intent: antibiotics
+    examples: |
+      - are antibiotis effective?
+      - are antibiotics effective in preventing the covid-19
+      - are antibiotics effective in treating covid-19?
+      - does antibiotics prevent covid?
+
+  - intent: medicines
+    examples: |
+      - are there any medicines?
+      - are there any therapies?
+      - medicines to cure covid-19
+      - medicines to prevent covid-19
+      - do we have any medicines for covid-19?
+      - do ayurvedic medicine cure corona
+      - do ayurvedic medicine cure covid
+
+  - intent: SARS
+    examples: |
+      - is covid-19 the same as SARS?
+      - is covid & SARS same?
+
+  - intent: mask
+    examples: |
+      - should i wear mask to protect myself?
+      - do i need to wear mask?
+      - is mask protective
+      - is mask compulsory?
+
+  - intent: mask_usage
+    examples: |
+      - how to put on mask?
+      - how to takeoff and dispose mask?
+      - how to dispose mask?
+      - how to put mask?
+
+  - intent: incubation_period
+    examples: |
+      - how long is the incubation period for covid-19?
+
+  - intent: spread_from_animal
+    examples: |
+      - can humans become infected with the covid-19 from an animal source?
+      - can i catch covid-19 from my pet?
+      - can i get infected from stray animal?
+
+  - intent: virus_on_surface
+    examples: |
+      - how long does the virus survive on the surfaces?
+
+  - intent: donts
+    examples: |
+      - is there anything I should not do?
+      - what no to do during pandemic?
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?

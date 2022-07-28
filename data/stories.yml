@@ -1,0 +1,97 @@
+version: "3.1"
+
+stories:
+  - story: greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: corona virus
+    steps:
+      - intent: corona
+      - action: utter_corona
+
+  - story: covid-19
+    steps:
+      - intent: covid-19
+      - action: utter_covid-19
+
+  - story: covid19 spread
+    steps:
+      - intent: covid19_spread
+      - action: utter_covid19_spread
+
+  - story: covid19 spread no symptoms
+    steps:
+      - intent: covid19_spread_no_symptoms
+      - action: utter_covid19_spread_no_symptoms
+
+  - story: covid19 spread from feces
+    steps:
+      - intent: covid19_spread_from_feces
+      - action: utter_covid19_spread_from_feces
+
+  - story: covid19 prevention
+    steps:
+      - intent: covid19_prevention
+      - action: utter_covid19_prevention
+
+  - story: catching coivd
+    steps:
+      - intent: catching_covid
+      - action: utter_catching_covid
+
+  - story: worrying covid
+    steps:
+      - intent: worrying_covid
+      - action: utter_worrying_covid
+
+  - story: severe ilness
+    steps:
+      - intent: severe_illness
+      - action: utter_severe_illness
+
+  - story: antibiotics
+    steps:
+      - intent: antibiotics
+      - action: utter_antibiotics
+
+  - story: medicines
+    steps:
+      - intent: medicines
+      - action: utter_medicines
+
+  - story: SARS
+    steps:
+      - intent: SARS
+      - action: utter_SARS
+
+  - story: mask
+    steps:
+      - intent: mask
+      - action: utter_mask
+
+  - story: mask_usage
+    steps:
+      - intent: mask_usage
+      - action: utter_mask_usage
+  
+  - story: incubation_period
+    steps:
+      - intent: incubation_period
+      - action: utter_incubation_period
+
+  - story: spread_from_animal
+    steps:
+      - intent: spread_from_animal
+      - action: utter_spread_from_animal
+
+  - story: virus_on_surface
+    steps:
+      - intent: virus_on_surface
+      - action: utter_virus_on_surface
+
+  - story: donts
+    steps:
+      - intent: donts
+      - action: utter_donts

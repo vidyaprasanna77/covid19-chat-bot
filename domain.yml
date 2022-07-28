@@ -1,0 +1,210 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - corona
+  - covid-19
+  - symptoms_of_corona
+  - covid19_spread_no_symptoms
+  - covid19_spread
+  - covid19_spread_from_feces
+  - covid19_prevention
+  - catching_covid
+  - worrying_covid
+  - severe_illness
+  - antibiotics
+  - medicines
+  - SARS
+  - mask
+  - mask_usage
+  - incubation_period
+  - spread_from_animal
+  - virus_on_surface
+  - donts
+  - bot_challenge
+  - request_names
+
+forms:
+  name_form:
+    required_slots:
+      - first_name
+      - last_name
+
+slots:
+  first_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: name_form
+            requested_slot: first_name
+  last_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: name_form
+            requested_slot: last_name
+
+responses:
+  utter_greet:
+    - text: "Hey! Iam a corona bot"
+
+  utter_corona:
+    - text:
+        "Corona viruses are a large family of viruses which may cause illness
+        in animals or humans.coronaviruses are known
+        to cause respiratory infections ranging from the common cold to more
+        severe diseases such as Middle East Respiratory Syndrome (MERS)
+        and Severe Acute Respiratory Syndrome (SARS)."
+
+  utter_covid-19:
+    - text: "It is the new virus and infectious disease which is unknown before the outbreak began in Wuhan,china,in DEC 2019"
+
+  utter_symptoms_of_corona:
+    - text: "The most common symptoms of COVID-19 are fever, tiredness, and
+        dry cough .Some patients may have aches and pains, nasal
+        congestion, runny nose, sore throat or diarrhea."
+
+  utter_covid19_spread:
+    - text: "The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales"
+
+  utter_covid19_spread_no_symptoms:
+    - text:
+        "The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many
+        people with COVID-19 experience only mild symptoms."
+
+  utter_covid19_spread_from_feces:
+    - text: "The risk of catching COVID-19 from the feces of an infected person
+        appears to be low. The ongoing research on the ways COVID-19 is spread and will continue to share new findings. Because
+        this is a risk, however, it is another reason to clean hands regularly,
+        after using the bathroom and before eating"
+
+  utter_covid19_prevention:
+    - text: "1.Avoid touching eyes, nose and mouth
+        2.Maintain at least 1 metre (3 feet) distance between yourself and
+        anyone who is coughing or sneezing
+        3.Regularly and thoroughly clean your hands with an alcohol- based
+        hand rub or wash them with soap and water
+        4.Stay home if you feel unwell. If you have a fever, cough and
+        difficulty breathing, seek medical attention and call in advance
+        5.Make sure you, and the people around you, follow good
+        respiratory hygiene"
+
+  utter_catching_covid:
+    - text: "The risk depends on where you are - and more specifically, whether
+        there is a COVID-19 outbreak unfolding there."
+
+  utter_worrying_covid:
+    - text: "Illness due to COVID-19 infection is generally mild, especially for
+        children and young adults.. It is therefore quite
+        normal for people to worry about how the COVID-19 outbreak will
+        affect them and their loved ones."
+
+  utter_severe_illness:
+    - text: "persons with pre-existing medical conditions (such
+        as high blood pressure, heart disease, lung disease, cancer or
+        diabetes) appear to develop serious illness more often than others"
+
+  utter_antibiotics:
+    - text: "No. Antibiotics do not work against viruses, they only work on bacterial
+            infections"
+
+  utter_medicines:
+    - text: "While some western, traditional or home remedies may provide
+        comfort and alleviate symptoms of COVID-19, there is no evidence
+        that current medicine can prevent or cure the disease."
+
+  utter_SARS:
+    - text: "No.SARS was more deadly but much less infectious than COVID-19.
+        There have been no outbreaks of SARS anywhere in the world since
+        2003."
+
+  utter_mask: 
+    - text: "Only wear a mask if you are ill with COVID-19 symptoms (especially
+            coughing) or looking after someone who may have COVID-19."
+
+  utter_mask_usage:
+    - text: "1.Before touching the mask, clean hands with an alcohol-based
+            hand rub or soap and water
+            2.Take the mask and inspect it for tears or holes.
+            3.Orient which side is the top side (where the metal strip is)
+            4.Ensure the proper side of the mask faces outwards (the
+            coloured side)
+            5.Pull down the mask’s bottom so it covers your mouth and your
+            chin.
+            6.After use, take off the mask; remove the elastic loops from behind
+            the ears
+            7.. Discard the mask in a closed bin immediately after use"
+  
+  utter_incubation_period:
+    - text: "Most estimates of the incubation period for COVID-19 range from 1-14 days, most
+            commonly around five day"
+
+  utter_spread_from_animal:
+    - text: "Coronaviruses are a large family of viruses that are common in
+            animals .Occasionally, people get infected with these viruses ."
+  
+  utter_virus_on_surface:
+    - text: "Studies suggest that corona viruses  may persist on surfaces for a few hours or up to
+            several days"
+
+  utter_donts:
+    - text: "The following measures ARE NOT effective against COVID-2019 and
+            can be harmful:
+            • Smoking
+            • Wearing multiple masks
+            • Taking antibiotics"
+  
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_ask_first_name:
+    - text: "what is your first name?"
+
+  utter_ask_last_name:
+    - text: "so {first_name}, what is your last name?"
+
+  utter_submit:
+    - text: "okay.Thanks!"
+
+  utter_slot_values:
+    - text: "I will remember that your name is {first_name} {last_name}!"
+
+actions:
+  - utter_greet
+  - utter_corona
+  - utter_covid-19
+  - utter_symptoms
+  - utter_covid19_spread
+  - utter_covid19_spread_no_symptoms
+  - utter_covid19_spread_from_feces
+  - utter_covid19_prevention
+  - utter_catching_covid
+  - utter_worring_covid
+  - utter_severe_illness
+  - utter_antibiotics
+  - utter_medicines
+  - utter_SARS
+  - utter_mask
+  - utter_mask_usage
+  - utter_incubation_period
+  - utter_spread_from_animal
+  - utter_virus_on_surface
+  - utter_donts
+  - utter_goodbye
+  - utter_iamabot
+  - utter_ask_first_name
+  - utter_ask_last_name
+  - utter_submit
+  - utter_slot_values
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

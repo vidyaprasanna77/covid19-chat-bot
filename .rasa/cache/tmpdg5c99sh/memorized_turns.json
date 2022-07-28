@@ -1,0 +1,21 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMr4YaERiSm1tLADubR7L": "utter_covid19_spread",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMr4YaERiSi0Bw0pLSlKL4tH0EDQzFgBEcz5p": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8oPy+xtjYWAAXaG/A=": "utter_corona",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8oPy+xloAhpSUlqUXxULU4zYgFAOb8Ndg=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMh5kAlAAqLS2NhYAblEglg==": "utter_covid19_prevention",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMh5kAlAAqLSWgIGlJSWpRfFY9BFldiwAd/dDyg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM0XX0LK2NhYAO1scGg==": "utter_covid-19",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM0XX0LKWgDGlJSWpRfFw1XjMiQUA7aw2Vg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMr4YaERiSnxefnxxZW5BSX5ucW1tLACAWiPy": "utter_covid19_spread_no_symptoms",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMr4YaERiSnxefnxxZW5BSX5ucS0Bg0tLSlKL4vHoJ8muWAB0pk3e": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMr4YaERiSnxaUX5ufFpqcmpxbW0sAFqnI0M=": "utter_covid19_spread_from_feces",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOb8sM8XQMr4YaERiSnxaUX5ufFpqcmpxLQFzS0tKUovicWsnxaZYAFqYS9E=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohObEkOSMzLz0+Ob8sM6W2NhYA8eMfIw==": "utter_catching_covid",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohObEkOSMzLz0+Ob8sM6WWgGGlJSWpRfFoegiaGQsAdrU/cQ==": "action_listen"
+  }
+}
